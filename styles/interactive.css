@@ -1,0 +1,309 @@
+﻿@font-face {
+    font-family: 'GveretLevinAlefAlefAlef-Regular';
+    src: url('../fonts/GveretLevinAlefAlefAlef-Regular.eot') format('embedded-opentype');
+    src: url('../fonts/GveretLevinAlefAlefAlef-Regular.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500;700&display=swap');
+
+
+
+body {
+    direction: rtl;
+    font-family: 'Assistant', sans-serif;
+    background-color: #BFCAF3;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1280px;
+}
+
+
+#fixedLogo {
+    position: relative;
+    top: -19px;
+    right: 225px;
+    width: 425px;
+    z-index: 100;
+}
+
+header img {
+    width: 297px;
+    position: relative;
+    top: -48px;
+    right: 290px;
+}
+
+header > a {
+    position: relative;
+    top: 20px;
+    right: 0px;
+}
+
+/*Overall menu settings*/
+
+#menu {
+    position: relative;
+    top: -98px;
+    border: none;
+    border: 0px;
+    margin: 0px;
+    padding-top: 20px;
+    padding-right: 130px;
+    z-index: 100;
+}
+
+/*Navigation settings*/
+
+/*Level 1*/
+
+#navIn {
+    list-style: none;
+    clear: none;
+    height: 35px;
+    right: -40px;
+    padding: 10px;
+    float: right;
+    text-align: center;
+}
+
+    #navIn li {
+        display: inline-block;
+        position: relative;
+        float: right;
+        background-color: #F1DDB8;
+        font-family: 'GveretLevinAlefAlefAlef-Regular';
+    }
+
+        #navIn li a {
+            display: inline-block;
+            width: 158px;
+            line-height: 35px;
+            padding: 0px;
+            margin: 3px;
+            text-decoration: none;
+            color: black;
+        }
+
+        /* --- Level 2 --- */
+
+        #navIn li li {
+            float: right;
+        }
+
+            #navIn li li a {
+                display: block;
+                font-size: 12px;
+            }
+
+        #navIn li:hover {
+            background-color: #EACC9B;
+        }
+
+    /*---  Styles ---*/
+    #navIn ul {
+        position: absolute;
+        padding: 0px;
+        left: 0;
+        display: none;
+    }
+
+    /*--- Hide level 3 ---*/
+    #navIn li:hover ul ul {
+        display: none;
+    }
+
+/*    Show level 3*/
+
+.inside1 li {
+    display: block;
+}
+
+.inside1 li {
+    position: absolute;
+    right: 164px;
+    top: -6px;
+    width: 165px;
+}
+
+
+.inside2 li {
+    position: absolute;
+    right: 164px;
+    top: -6px;
+    width: 165px;
+}
+
+.inside3 li {
+    position: absolute;
+    right: 164px;
+    top: -6px;
+    width: 165px;
+}
+
+
+/*--- Level 2 ---*/
+
+#navIn li:hover ul {
+    display: block;
+}
+
+#navIn li li:hover ul {
+    margin-left: -136px;
+    margin-top: -35px;
+    display: block;
+}
+
+
+
+/*    breadcrumbs*/
+
+#bd ol li {
+    display: inline-block;
+}
+
+    #bd ol li:after {
+        content: "⮜";
+    }
+
+    #bd ol li:last-child:after {
+        content: "";
+    }
+
+.breadcrumb {
+    position: relative;
+    top: -90px;
+    right: 10px;
+    padding: 33px 160px;
+    list-style: none;
+}
+
+    .breadcrumb li li:before {
+        padding: 8px;
+        color: black;
+    }
+
+    .breadcrumb li a {
+        color: black;
+        text-decoration: none;
+    }
+
+        .breadcrumb li a:hover {
+            text-decoration: underline;
+        }
+
+
+
+/*not active*/
+
+.notActive {
+    cursor: not-allowed;
+    /*   color: grey;*/
+}
+
+
+
+
+
+
+/*
+קישורים לא פעילים - בכל העמוד
+*/
+.notActive {
+    cursor: not-allowed;
+}
+
+    .notActive:hover {
+        text-decoration: line-through;
+    }
+
+
+h1 {
+    font-family: 'GveretLevinAlefAlefAlef-Regular';
+    position: absolute;
+    top: 219px;
+    right: 260px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+#textFormat {
+    height: 79px;
+    font-size: 22px;
+    width: 95%;
+    margin-right: 40px;
+}
+
+.notActive ul:hover {
+    text-decoration: line-through;
+    color: black;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+
+td {
+    vertical-align: top;
+    /*    width:150px;*/
+}
+
+ul {
+    list-style: none;
+}
+
+    ul li ul li {
+        list-style-image: url('../Images/siteMap/home.png');
+    }
+
+.boldLinks {
+    font-weight: bold;
+}
+
+
+
+
+
+
+/*פוטר*/
+#footerGrass {
+    background-image: url(../Images/home_page/grass.png);
+    position: relative;
+    top: 9px;
+    width: 1280px;
+    height: 256px;
+}
+
+.nav_footer ul {
+    list-style: none;
+    margin: 8px;
+    display: inline-block;
+    margin-right: 122px;
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-top: 134px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+iframe {
+    position: relative;
+    top: -130px;
+    width: 1199px;
+    height: 720px;
+    align-items: center;
+}

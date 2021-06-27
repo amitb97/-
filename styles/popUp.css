@@ -1,0 +1,86 @@
+﻿
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+@font-face {
+    font-family: 'GveretLevinAlefAlefAlef-Regular';
+    src: url('../fonts/GveretLevinAlefAlefAlef-Regular.eot') format('embedded-opentype'), url('../fonts/GveretLevinAlefAlefAlef-Regular.ttf') format('truetype');
+}
+
+.btn {
+    position: relative;
+    bottom: 172px;
+    right: 482px;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+
+
+#popUpBox {
+    width: 500px;
+    overflow: hidden;
+    /*     border-radius: 10px;
+*/ position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+
+#boxTip {
+    width: 441px;
+    height: 300px;
+}
+
+#textbox {
+    position: absolute;
+    right: 9px;
+    bottom: -64px;
+    width: 558px;
+    height: 407px;
+    z-index: -100;
+}
+
+#closeModal {
+    position: relative;
+    right: 447px;
+    top: 99px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+}
+
+#textTipOne {
+    position: absolute;
+    right: 24px;
+    top: 44px;
+    width: 419px;
+}
+
+    #textTipOne h1 {
+        font-size: 30px;
+        /*        padding-bottom: 19px;
+*/ padding-left: 118px;
+        padding-top: 7px;
+        font-family: 'GveretLevinAlefAlefAlef-Regular';
+    }
+
+    #textTipOne p {
+        font-size: 17pt;
+        padding-right: 93px;
+        text-align: right;
+    }
+

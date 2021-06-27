@@ -1,0 +1,690 @@
+﻿@font-face {
+    font-family: 'GveretLevinAlefAlefAlef-Regular';
+    src: url('../fonts/GveretLevinAlefAlefAlef-Regular.eot') format('embedded-opentype');
+    src: url('../fonts/GveretLevinAlefAlefAlef-Regular.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500;700&display=swap');
+
+
+
+body {
+    direction: rtl;
+    font-family: 'Assistant', sans-serif;
+    background-color: #D3EDF5; 
+    margin-left:-10px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1280px;
+    background-image: url('../Images/home_page/building.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 0px 56px;
+}
+
+
+
+/* הגדרת כל התפריט "בתוך" הדיב של התמונת רקע
+*/
+
+/*שלט לוגו*/
+
+#header #logo {
+
+    position: relative;
+    top: 36px;
+    right: 89px;
+    width: 610px;
+    z-index: 100;
+}
+
+
+
+#container #header {
+    position: relative;
+    height:100px;
+}
+
+
+
+
+
+
+
+/*/Overall menu settings/*/
+
+#menu {
+/*    border: none;
+    border: 0px;
+    margin: 0px;
+*/    padding-top: 20px;
+    padding-right: 130px;
+    z-index: 100;
+
+    position: relative;
+    top: -80px;
+    right: -15px;
+
+    
+}
+
+
+
+
+
+/*/Navigation settings/
+
+/Level 1/*/
+
+#navIn {
+    list-style: none;
+    clear: none;
+    height: 35px;
+    margin: 20px;
+    padding: 10px;
+    float: right;
+    text-align: center;
+
+
+}
+
+
+#navIn li {
+    display: inline-block;
+    position: relative;
+    float: right;
+    background-color: #F1DDB8;
+    font-family: 'GveretLevinAlefAlefAlef-Regular';
+}
+
+
+    #navIn li a {
+        display: inline-block;
+        width: 158px;
+        line-height: 35px;
+        padding: 0px;
+        margin: 3px;
+        text-decoration: none;
+        color: black;
+    }
+
+    /*  Level 2*/
+
+    #navIn li li {
+        float: right;
+    }
+
+        #navIn li li a {
+            display: block;
+            font-size: 12px;
+        }
+
+    #navIn li:hover {
+        background-color: #EACC9B;
+    }
+
+
+/*/--- Styles ---/
+*/#navIn ul {
+    position: absolute;
+    padding: 0px;
+    left: 0;
+    display: none;
+
+}
+
+
+/*/--- Hide level 3 ---/
+*/#navIn li:hover ul ul {
+    display: none;
+}
+
+
+
+/*    Show level 3*/
+
+.inside1 li {
+    display: block;
+}
+
+
+.inside1 li {
+    position: absolute;
+    right: 164px;
+    top: -6px;
+    width: 100px;
+}
+
+
+.inside2 li {
+    position: absolute;
+    right: 164px;
+    top: -6px;
+    width: 300px;
+}
+
+
+
+.inside3 li {
+    position: absolute;
+    right: 164px;
+    top: -6px;
+    width: 300px;
+}
+
+
+/*/--- Level 2 ---/
+*/
+#navIn li:hover ul {
+    display: block;
+}
+
+
+/*#navIn li li:hover ul {
+    margin-left: -400px;
+    margin-top: -35px;
+    display: block;
+}*/
+#navIn li li:hover ul {
+    margin-left: /*-400px;*/ -136px;
+    margin-top: -35px;
+    display: block;
+}
+
+    #navIn li li:hover ul li {
+        width: 161px;
+    }
+
+
+/*קישורים לא פעילים - בכל העמוד*/
+    
+.notActive {
+    cursor: not-allowed;
+    color: grey;
+}
+
+
+
+
+/*הגדרת פונט לכותרות + קישורים*/
+
+h1, h2, .insideLinks {
+    font-family: 'GveretLevinAlefAlefAlef-Regular';
+}
+
+
+
+
+section {
+    display: block;
+    right: 153px;
+    height:308px;
+    
+    
+}
+
+
+
+#firstFloor {
+    position: relative;
+    top: 198px;
+
+    right: 153px;
+    height: 307px;
+    width: 970px;
+/*        padding:30px;
+*/}
+
+.allFloors {
+    position: relative;
+    right: 153px;
+    height: 318px;
+    width: 970px;
+/*  align-items:center;*/
+ /* padding:30px;*/
+
+}
+
+#secondFloor {
+    position: relative;
+    top: 196px;
+    height: 318px;
+}
+
+#thirdFloor {
+    position: relative;
+    top: 196px;
+    height: 335px;
+}
+
+#fourthFloor {
+    position: relative;
+    top: 196px;
+    height:340px;
+}
+
+#fifthFLoor {
+    position: relative;
+    top: 193px;
+    height: 335px;
+}
+
+
+
+
+
+
+
+    /*אלמנטים בקומה 1 */
+    #firstFloor {
+        padding-top: 25px;
+        padding-right: 40px;
+    }
+
+span{
+    font-weight:bold;
+}
+
+#firstFloor #couch {
+    position: relative;
+    top: -218px;
+    right: 494px;
+    width: 460px;
+}
+
+
+
+
+
+
+/*כותרת קומה 2*/
+
+#secondFloor h2, #secondFloor p {
+    position: relative;
+    top: 25px;
+    right: 0px;
+    text-align: center;
+}
+
+#firstFloor p {
+    width:560px;
+}
+
+#secondFloor a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Gveret Levin AlefAlefAlef';
+    color: black;
+    font-size: 14pt;
+}
+
+
+#right {
+    position: relative;
+    width: 80px;
+    top: -148px;
+    right: -72px;
+}
+
+#left {
+    position: relative;
+    width: 80px;
+    top: -148px;
+    right: 20px;
+}
+
+#rightBox {
+    width: 330px;
+    position: relative;
+    top: -11px;
+    right: 28px;
+}
+
+
+#packingLink {
+    position: relative;
+    top: -107px;
+    right: -227px;
+}
+
+#leftBox {
+    width: 330px;
+    position: relative;
+    top: -17px;
+    right: 51px;
+}
+
+#unpackingLink {
+    position: relative;
+    top: -178px;
+    right: 768px;
+}
+
+
+
+
+
+/*כותרת קומה 3
+*/
+#thirdFloor #firstH2 {
+    position: relative;
+    top: 20px;
+    right: 40px;
+}
+
+#secH2 {
+    position: relative;
+    top: -484px;
+    right: 750px;
+}
+
+
+#thirdFloor a {
+    position: relative;
+    top: -293px;
+    right: 127px;
+    color: black;
+    text-decoration: none;
+}
+
+#thirdFloor p {
+    position: relative;
+    top: 20px;
+    right: 40px;
+}
+
+/*ציורים קומה 3*/
+#stairsToLeft {
+    width: 276px;
+    position: relative;
+    top: -88px;
+    right: 557px;
+}
+
+
+#toilet {
+    width: 162px;
+    position: relative;
+    top: -127px;
+    right: -30px;
+}
+
+#sink {
+    width: 197px;
+    position: relative;
+    top: 143px;
+    right: 177px;
+}
+
+
+#thirdFloor .leftArrow {
+    width: 74px;
+    position: relative;
+    top: -607px;
+    right: 278px;
+    transform: rotate( 42deg );
+}
+
+
+
+
+#sellingSign img {
+    width: 205px;
+    position: relative;
+    top: -167px;
+    right: 523px;
+}
+
+#thirdFloor #lastP {
+    position: relative;
+    top: -767px;
+    right: 752px;
+}
+
+
+
+
+
+/*ציורים קומה 4*/
+#fourthFloor h2 {
+    position: relative;
+    top: 25px;
+    right: 420px;
+}
+
+#fourthFloor p {
+    position: relative;
+    top: 20px;
+    right: 420px;
+}
+
+#office {
+    width: 330px;
+    position: relative;
+    top: -148px;
+    right: 663px
+}
+
+#rigtArrow {
+    width: 74px;
+    position: relative;
+    top: -398px;
+    right: 573px;
+    transform: rotate( -20deg );
+}
+
+#calender {
+    width: 137px;
+    position: relative;
+    top: -262px;
+    right: 100px;
+}
+#kitchen {
+    width: 420px;
+    height: 406px;
+    position: relative;
+    top: -149px;
+    right: -503px;
+}
+
+
+
+
+
+
+
+
+
+/*ציורים קומה 5*/
+
+
+#fifthFLoor h2 {
+    position: relative;
+    top: 20px;
+    right: 40px;
+}
+
+#fifthFLoor p {
+    position: relative;
+    top: 20px;
+    right: 80px;
+    font-family: 'Gveret Levin AlefAlefAlef';
+    color: black;
+    text-decoration: none;
+}
+
+
+#stairsToRight {
+    width: 298px;
+    position: relative;
+    top: -54px;
+    right: -542px;
+    z-index:-20;
+}
+
+
+#closet {
+    width: 174px;
+    height: 336px;
+    position: relative;
+    top: -112px;
+    right: 143px;
+}
+
+
+#bed {
+    width: 330px;
+    position: relative;
+    top: -93px;
+    right: 677px;
+}
+
+#fifthFLoor .leftArrow {
+    width: 74px;
+    position: relative;
+    top: -268px;
+    right: -575px;
+    transform: rotate( 40deg );
+}
+
+#phone {
+    width: 100px;
+    position: relative;
+    top: -405px;
+    right: 337px;
+
+}
+
+
+
+
+#dowmArrow {
+    position: fixed;
+    bottom:0;
+    right: 0;
+}
+    #dowmArrow p {
+        position: fixed;
+        top: 480px;
+        right: 42px;
+        width: 140px;
+        text-align: center;
+        font-family: 'GveretLevinAlefAlefAlef-Regular';
+        font-size: 14pt;
+    }
+
+    #dowmArrow img {
+        position: fixed;
+        top: 572px;
+        right: 80px;
+        width: 50px;
+        align-items: center;
+    }
+
+/*    חץ-קישור חזרה לתחילת הדף*/
+
+#upArrow {
+    position: absolute;
+    top: 1650px;
+    left: 85px;
+    height: 111px;
+    align-items: center;
+}
+
+#upArrow img{
+   width: 50px;
+   transform: rotate( 180deg );
+
+}
+
+
+/*הגדרות פוטר*/
+
+
+/*#footerGrass {
+    position: relative;
+    top: 39px;*/
+/*    width: 1280px;*/
+    /*height: 150px;
+}
+
+#grass {
+    width: 120%;
+    height: 290px;
+    position: relative;
+    top: -95px;
+    bottom: 51px;
+}
+
+
+
+
+#bottomNav {
+    position: relative;
+    top: 150px;
+    right: 200px;
+    z-index: 100;
+}
+
+#bottomNav ul {
+    width:290px;
+    position:relative;
+    list-style: none;
+    display: inline-block;
+    z-index: 90;
+}
+
+#bottomNav ul li{
+    color: black;
+    text-align:right;
+    font-family: Assistant, sans-serif;
+    font-size:14pt;
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+
+}
+
+footer a{
+    color:black;
+    text-decoration:none;
+    font-weight:500;
+}
+
+footer a:hover {
+    text-decoration:underline;
+}*/
+
+
+
+
+
+
+
+/*פוטר*/
+#footerGrass {
+    background-image: url(../Images/home_page/grass.png);
+    position: relative;
+    top: 19px;
+    width: 1280px;
+    height: 256px;
+}
+
+.nav_footer ul {
+    list-style: none;
+    margin: 8px;
+    display: inline-block;
+    margin-right: 122px;
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-top: 134px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
